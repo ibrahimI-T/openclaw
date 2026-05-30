@@ -1,0 +1,7 @@
+[build]
+builder = "DOCKERFILE"
+
+[deploy]
+healthcheckPath = "/setup/healthz"
+restartPolicyType = "ON_FAILURE"
+healthcheckTimeout = 300
